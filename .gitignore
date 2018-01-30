@@ -1,0 +1,34 @@
+# Unit tests config
+phpunit.xml
+.travis.yml
+/bin
+tests/mocks/env/
+
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+
+# Sass cache
+.sass-cache/
+# Development files
+/node_modules
+/assets/vendor/
+/bower_components/
+
+.idea/
+discography.iml
+
+# wordpress specific
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/*
+wp-content/backup-db/*
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/*
+wp-content/cache/supercache/*
